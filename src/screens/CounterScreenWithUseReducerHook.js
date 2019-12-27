@@ -18,7 +18,6 @@ const reducer = (state, action) => {
 const CounterScreen = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0 })
   const { count } = state;
-  console.log(state);
 
   return (
     <View>
