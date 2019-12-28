@@ -7,7 +7,6 @@ const passwordReformatter = passwordInput => {
       return letter.replace(letter, '*');
     })
     .join('')
-    
 };
 
 const TextScreen = () => {
